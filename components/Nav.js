@@ -1,6 +1,6 @@
-import styles from "@/styles/Nav.module.scss";
-import LogoSvg from "@/public/img/icon.svg";
-import Image from "next/image";
+import styles from '@/styles/Nav.module.scss';
+import LogoSvg from '@/public/img/icon.svg';
+import Image from 'next/image';
 
 export default function Nav({ searchTerm }) {
   return (
