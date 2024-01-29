@@ -1,0 +1,47 @@
+.btn {
+  display: flex;
+
+  align-items: center;
+
+  padding: 8px 10px;
+
+  border: 1px solid transparent;
+  border-radius: 5px;
+
+  cursor: pointer;
+
+  transition: all 0.12s ease-in-out;
+
+  > .text {
+    font-family: 'Outfit', sans-serif;
+    font-size: 1rem;
+  }
+
+  > .icon {
+    margin-left: 6px;
+  }
+
+  &[type='primary'] {
+    background: #E0E7FF;
+
+    border-color: rgba(#6467F2, 0.15);
+    color: #6467F2;
+
+    &:hover {
+      background: #6467F2;
+      color: #E0E7FF;
+    }
+  }
+
+  &[type='secondary'] {
+    background: #FFE0E0;
+
+    border-color: rgba(#F26464, 0.15);
+    color: #F26464;
+
+    &:hover {
+      background: #F26464;
+      color: #FFE0E0;
+    }
+  }
+}
