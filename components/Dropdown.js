@@ -20,7 +20,7 @@ export default function Dropdown({ className, items, picture, id, children, ...p
       <button className={className ? `${styles.btn} ${className}` : styles.btn} data-for={id} onClick={handleClick} {...props}>
         { picture && <Image className={styles.profilePic} src={picture} alt={`${children}'s profile picture.`} height={24} width={24} /> }
         <span className={styles.text}>{children}</span>
-        { !isOpen ? <ChevronDown className={styles.icon} height={20} width={20} /> : <ChevronUp className={styles.icon} height={20} width={20} /> }
+        { !isOpen ? <ChevronDown className={styles.icon} height={18} width={18} /> : <ChevronUp className={styles.icon} height={18} width={18} /> }
       </button>
 
       <div className={styles.dropdownItems} id={id} ref={dropdownRef}>
