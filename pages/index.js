@@ -1,4 +1,5 @@
 import Button from '@/components/Button';
+import Dropdown from '@/components/Dropdown';
 
 import {
   HomeIcon,
@@ -13,7 +14,6 @@ import {
   Cookie,
   LogOut
 } from 'lucide-react';
-import Dropdown from '@/components/Dropdown';
 
 export default function Home() {
   return (

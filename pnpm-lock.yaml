@@ -5,6 +5,9 @@ settings:
   excludeLinksFromLockfile: false
 
 dependencies:
+  '@zleedapp/stem':
+    specifier: ^0.0.2
+    version: 0.0.2
   lucide-react:
     specifier: ^0.316.0
     version: 0.316.0(react@18.2.0)
@@ -312,6 +315,10 @@ packages:
   /@ungap/structured-clone@1.2.0:
     resolution: {integrity: sha512-zuVdFrMJiuCDQUMCzQaD6KL28MjnqqN8XnAqiEq9PNm/hCPTSGfrXCOfwj1ow4LFb/tNymJPwsNbVePc1xFqrQ==}
     dev: true
+
+  /@zleedapp/stem@0.0.2:
+    resolution: {integrity: sha512-n99bTAyF6dP0B0FvYg6ALbL9qfxCGsWfGN4DE6k6D3WxC3Mqxgk3YfVfiE7WKK4peLXGOA8Qwd24l9zBBD1O0A==, tarball: https://npm.pkg.github.com/download/@zleedapp/stem/0.0.2/c658a6ec361facd78b8f057ae13f0786b0309c1e}
+    dev: false
 
   /acorn-jsx@5.3.2(acorn@8.11.3):
     resolution: {integrity: sha512-rq9s+JNhf0IChjtDXxllJ7g41oZk5SlXtp0LHwyA5cejwn7vKmKp4pPri6YEePv2PU65sAsegbXtIinmDFDXgQ==}
